@@ -1,0 +1,16 @@
+.navbarContainer {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    margin: 0 5px;
+}
+
+.navlink.active {
+    color: black;
+}

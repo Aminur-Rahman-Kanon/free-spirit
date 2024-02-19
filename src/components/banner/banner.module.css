@@ -1,0 +1,40 @@
+.introContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.introImgContainer {
+    width: 100%;
+}
+
+.introImg {
+    width: 100%;
+}
+
+.introDetailsContainer {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.introH1 {
+    font-size: 3rem;
+}
+
+.introSub {
+    font-size: 1.5rem;
+}

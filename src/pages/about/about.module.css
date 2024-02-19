@@ -1,0 +1,29 @@
+.aboutContainer {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.meContainer {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.aboutP {
+    color: rgb(67, 67, 67);
+}
+
+.me {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .aboutContainer {
+        width: 100%;
+    }
+}

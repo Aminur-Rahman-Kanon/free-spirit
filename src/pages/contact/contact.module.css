@@ -1,0 +1,114 @@
+.contactContainer {
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: inherit
+}
+
+.contactH3 {
+    font-size: 20px;
+}
+
+.contactIcon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.icon.fb {
+    color: #1877F2;
+}
+
+.icon.gmail {
+    color: #cf4545;
+}
+
+.icon.phone {
+    color: rgb(85, 85, 85);
+}
+
+.label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.group {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formlabel {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.input {
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 90%;
+    height: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.submitBtn {
+    width: 200px;
+    height: 35px;
+    background-color: #1877F2;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+    border: 1px solid #1877F2;
+    transition: all 0.3s ease-out;
+}
+
+.submitBtn:hover {
+    transform: scale(1.2);
+}
+
+.fbLink {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .contactContainer {
+        padding: 10px;
+    }
+}
