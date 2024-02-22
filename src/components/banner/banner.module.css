@@ -17,9 +17,9 @@
 
 .introDetailsContainer {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -30%);
     width: 80%;
     padding: 10px;
     box-sizing: border-box;
@@ -33,6 +33,12 @@
 
 .introH1 {
     font-size: 3rem;
+    margin: 5px 0;
+}
+
+.introh3 {
+    font-size: 18px;
+    margin: 5px 0;
 }
 
 .introSub {

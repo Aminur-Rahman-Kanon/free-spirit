@@ -9,6 +9,10 @@
     align-items: flex-start;
 }
 
+.aboutH2 {
+    margin-top: 100px;
+}
+
 .meContainer {
     width: 300px;
     margin: 20px 0;

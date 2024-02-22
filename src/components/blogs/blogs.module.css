@@ -1,0 +1,92 @@
+.blogsContainer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogsH1 {
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.blogs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    position: relative;
+    width: 70%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-height: 500px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.blog:hover {
+    transform: scale(1.1);
+}
+
+.blogImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.4);
+}
+
+.blogImg {
+    width: 100%;
+}
+
+.blogDetailsContainer {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+}
+
+.blogP {
+    font-size: 18px;
+}
+
+.infoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1130px) {
+    .blog {
+        width: 100%;
+    }
+
+    .blogDetailsContainer {
+        width: 95%;
+        top: 0;
+        transform: translate(-50%, 0);
+        overflow: hidden;
+    }
+
+    .blogH2, .blogP {
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

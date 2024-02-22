@@ -1,0 +1,104 @@
+.blogMain {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blogContainer {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogImgContainer {
+    width: 100%;
+    height: 90vh;
+    min-height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.blogImg {
+    width: 100%;
+}
+
+.blogDetailsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blogHeading {
+    position: relative;
+    font-size: 3rem;
+    font-family: "Protest Revolution", sans-serif;
+    margin: 50px auto;
+}
+
+.blogHeading::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.blogP {
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin: 10px auto;
+    color: rgb(78, 78, 78);
+    transition: all 0.3s ease-out;
+    text-align: left;
+}
+
+a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+ul {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 15px 0;
+}
+
+@media (max-width:900px) {
+    .blogMain {
+        width: 95%;
+    }
+
+    .blogHeading {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .blogImgContainer {
+        height: auto;
+        min-height: unset;
+    }
+}

@@ -6,16 +6,17 @@ import Navbar from './components/navbar/navbar';
 import Banner from './components/banner/banner';
 import Contact from './pages/contact/contact';
 import About from './pages/about/about';
+import Blog from './pages/Blog/blog';
 
 function App() {
   return (
     <div className="App">
-      <Banner />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/contact' element={<Contact />}/>
         <Route path='/about' element={<About />}/>
+        <Route path='/blog/:blogId' element={<Blog />}/>
       </Routes>
     </div>
   );
