@@ -24,7 +24,8 @@ const data = {
             'Bhakti yoga: Unlike general perception, Hinduism (Sanatan Dharma) is a monotheistic religion based on philosophy of omipresence of God(pantheism). It teaches that God is one and this Universe is integral to Him. The different Gods worshipped in Hinduism are personifications of the Supreme Soul (Parmatma) in different ‘modes of consciousness’ called Chetana (चेतना). A person following Bhakti Yoga devotes himself to a personification of God that matches his own consciousness and worships Him with utmost compassion to attain Moksha. Below is a painting of a 14th century Meera known for her bhakti towards Lord Krishna.',
             'One can follow any of these or all of these paths to connect with God. Hinduism is a liberal religion and also allows oneself to invent his own path to connect with God and finally merge with Him.',
             'I personally follow a combination of Karma Yog and Gnan Yog to understand myself and my Creator Almighty God and hope that one day I will be free from this trap cycle and be able to merge with God.'
-        ]
+        ],
+        date: 'April 12 2023'
     },
     purpose: {
         img: aim,
@@ -51,14 +52,15 @@ const data = {
             <h3>Varnashrama dharma</h3>,
             'Varnashrama dharma is considered by many Hindus to be an outdated form of dharma as it focuses on social class (or caste) and it is not widely practised among Hindus today. However, for some Hindus it still has a place in their beliefs. It is focused on materialistic duties in life. The four main classes are Brahmins, Kshatriyas, Vaishyas and Shudras.',
             'Ultimately, all Hindus aim to be Brahmans. However, in order to achieve this status, they have to move through the other three castes in their mortal lives (with each successive reincarnation).'
-        ]
+        ],
+        date: 'July 30 2023'
     },
     terror: {
         img: terror,
         heading: 'Worriors of Islam',
         p: [
             "In 2003 Bangladeshi secular author and critic Humayun Azad wrote a book named Pak Sar Jamin Saad Baad criticising the political party called Bangladesh Jamaat-e-Islami. Azad received numerous death threats from fundamentalist groups after its publication. On 27 February 2004, he became the victim of an assassination attempt by assailants armed with machetes near the campus of the University of Dhaka during the annual Ekushey Book Fair. A week prior to that assault, Delwar Hossain Sayeedi, a Bangladesh Jamaat-e-Islami leader and then member of the parliament, demanded in the parliament that Azad's political satire Pak Sar Jamin Saad Baad be banned and called for the application of the Blasphemy Act to the author.",
-            "On 12 August 2004 Azad was found dead in his apartment in Munich, Germany, where he had arrived a week earlier to conduct research on the 19th-German romantic poet Heinrich Heine.[152] His family demanded an investigation, alleging that the extremists who had attempted the earlier assassination had a role in this death.",
+            "On 12 August 2004 Azad was found dead in his apartment in Munich, Germany, where he had arrived a week earlier to conduct research on the 19th-German romantic poet Heinrich Heine. His family demanded an investigation, alleging that the extremists who had attempted the earlier assassination had a role in this death.",
             <h2>So Who are Jamat-e-Islami and what do they want?</h2>,
             "Jamat-e-Islami is the largest Islamist political party in Bangladesh an affiliation group of Its predecessor, the Jamaat-e-Islami Pakistan who strongly opposed the independence of Bangladesh and break-up of Pakistan.  In 1971, paramilitary forces associated with the party collaborated with the Pakistan Army in mass killings of Bangladeshi nationalists and pro-intellectuals.",
             'Jamaat was banned after the independence of Bangladesh in December 1971, and its top leaders fled to Pakistan. Sheikh Mujibur Rahman, the first president of Bangladesh, also cancelled the citizenship of Ghulam Azam, the leader of Jamaat-e-Islami who moved to Pakistan, the Middle East and the UK. Azam first fled to Pakistan and organised an "East Pakistan Recovery Week". As information about his participation in the killing of civilians came to light "a strong groundswell of resentment against" East Pakistan JI leadership developed and Azam and Maulan Abdur Rahim were sent to Saudi Arabia. In Saudi Arabia, Azam and some of his followers successfully appealed for donations to "defend Islam" in Bangladesh, asserting that the Hindu minority there were "killing Muslims and burning their homes.',
@@ -154,12 +156,14 @@ Haider was an organizer of the Shahbag movement, a group "which seeks death for 
                     <strong>Faisal Arefin Dipan:</strong> Faisal Arefin Dipan, aged 43, the publisher of Jagriti Prakashany, which published Avijit Roy's Biswasher Virus (Bengali for The Virus of Faith), was hacked to death in Dhaka on 31 October 2015 at the hands of suspected religious extremists for his association with Avijit Roy and other freethinking, secular and atheist writers. Reports stated that he had been killed in his third-floor office at the Jagriti Prokashoni publishing house. The attack followed another stabbing, earlier the same day, in which publisher Ahmedur Rashid Chowdhury and two writers, Ranadeep Basu and Tareque Rahim, were stabbed in their office at another publishing house. The three men were taken to hospital, and at least one was reported to be in critical condition.
                 </li>
             </ul>,
+            <a target='_blank' href='https://en.wikipedia.org/wiki/Attacks_by_Islamic_extremists_in_Bangladesh#:~:text=On%2025%20May%202016%20Debesh,in%20less%20than%20a%20week.'>Check here for reference</a>,
             "Apart for that those fascist members of Jamat-e-islami has attacked few other places and killed many people for the purpose of showing their evil power over innocent poeple including foreighners",
             "On the night of 1 July 2016, at 21:20 local time, five militants took hostages and opened fire on the Holey Artisan Bakery in Gulshan Thana. The assailants entered the bakery with crude bombs, machetes, pistols, and took several dozen hostages (foreigners and locals). In the immediate response, while Dhaka Metropolitan Police tried to regain control of the bakery, two police officers were shot dead by the assailants.",
             "29 people were killed, including 20 hostages (17 foreigners and 3 locals), two police officers, five gunmen, and two bakery staff. As the police were unsuccessful in breaching the bakery and securing the hostages, they set up a perimeter along with the Rapid Action Battalion and Border Guard Bangladesh. Very early on 2 July (around 03:00), it was decided that the Bangladesh Armed Forces would launch a counter assault named Operation Thunderbolt.",
             <a href='https://en.wikipedia.org/wiki/July_2016_Dhaka_attack'>Check here for reference</a>,
             "Bangladesh is still a developing country. Even though the prime minister promised to transform the country as digitalized but still now the public safety is very poor. Though the use of CCTV has started but they are very few in numbers. As there are some rapid respose system like 999 or 911 but still the response aren't fast. Criminals have ample time and opportunity to escape from the incident place after they commited a crime. Limited amount of the police and the law enforcement team compared the number of population of bangladesh still facing very difficulties to offer safety and security of the local people even in the capital city of the country and villages are far away. If the government doesn't take a seriuos action against them soon they will make the innocent and hard working people's life endangered."
-        ]
+        ],
+        date: 'December 23 2023'
     }
 }
 

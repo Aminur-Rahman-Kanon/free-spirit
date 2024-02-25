@@ -18,7 +18,7 @@ const Blogs = () => {
                         {item.p.slice(0, 2).map((para, idx) => <p key={idx} className={styles.blogP}>{para}</p>)}
                         <div className={styles.infoContainer}>
                             <span className={styles.info}>By Aminur Rahman</span>
-                            <span className={styles.info}>April 12 2022</span>
+                            <span className={styles.info}>{item.date}</span>
                         </div>
                     </div>
                 </Link>)}

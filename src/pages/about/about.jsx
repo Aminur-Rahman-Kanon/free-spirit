@@ -12,7 +12,7 @@ const About = () => {
         <p className={styles.aboutP}>Hi</p>
         
         <p className={styles.aboutP}>
-            My previous name Md Aminur Rahman and recent name is Kanon Sarker and I am trying to be a practical hindu.
+            My previous name Md Aminur Rahman and recent name is Kanon Sarker and I am trying to find the ultimate truth by practicing hinduism.
         </p>
 
         <p className={styles.aboutP}>
