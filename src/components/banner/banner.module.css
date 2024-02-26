@@ -1,6 +1,7 @@
 .introContainer {
     position: relative;
     width: 100%;
+    margin-top: 84px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,6 @@
 
 .introImgContainer {
     width: 100%;
-    margin-top: 84px;
 }
 
 .introImg {
